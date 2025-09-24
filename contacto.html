@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta datos y enlaces a estilos y fuentes -->
+    <meta charset="UTF-8"> <!-- Establece el conjunto de caracteres para el documento como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Permite que la página sea responsiva en dispositivos móviles -->
+    <title>Contacto - Johan Salgado</title> <!-- Título de la pestaña en el navegador -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Enlace a la hoja de estilos externa -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> <!-- Enlace a la fuente Montserrat desde Google Fonts -->
+</head>
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <!-- Sección del encabezado, que incluye el título y la barra de navegación -->
+    <header>
+        <div class="container"> <!-- Contenedor principal del encabezado -->
+            <h1>Contáctame</h1> <!-- Título de la página de contacto -->
+            <nav>
+                <ul> <!-- Menú de navegación -->
+                    <li><a href="index.html">Inicio</a></li> <!-- Enlace a la página de inicio -->
+                    <li><a href="galeria.html">Galería</a></li> <!-- Enlace a la página de galería -->
+                    <li><a href="contacto.html" class="active">Contacto</a></li> <!-- Enlace a la página de contacto, con clase 'active' para marcarla como la página actual -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ================= FORMULARIO ================= -->
+    <!-- Sección del formulario de contacto -->
+    <section class="contact-section">
+        <div class="container"> <!-- Contenedor para la sección de formulario -->
+            <h2>Envíame un mensaje</h2> <!-- Título de la sección de formulario -->
+            <form class="contact-form"> <!-- Formulario de contacto -->
+                <input type="text" name="nombre" placeholder="Tu nombre" required> <!-- Campo de texto para el nombre del usuario -->
+                <input type="email" name="correo" placeholder="Tu correo electrónico" required> <!-- Campo de texto para el correo electrónico del usuario -->
+                <textarea name="mensaje" placeholder="Tu mensaje..." required></textarea> <!-- Campo de texto para el mensaje del usuario -->
+                <button type="submit">Enviar</button> <!-- Botón de envío del formulario -->
+            </form>
+        </div>
+    </section>
+
+    <!-- ================= DATOS DE CONTACTO ================= -->
+    <!-- Sección con información de contacto directa -->
+    <section class="contact-info">
+        <div class="container"> <!-- Contenedor para los datos de contacto -->
+            <h2>O si prefieres, contáctame directamente:</h2> <!-- Título de la sección de datos de contacto -->
+            <p>Correo: <a href="mailto:johansalgado.129@gmail.com">johansalgado.129@gmail.com</a></p> <!-- Correo electrónico con enlace para enviar mensaje -->
+            <p>Celular: <a href="tel:+573112545065">311 254 5065</a></p> <!-- Número de celular con enlace para llamar -->
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <!-- Sección del pie de página -->
+    <footer>
+        <p>&copy; 2025 Johan Salgado - Portafolio de Proyectos. Todos los derechos reservados.</p> <!-- Información de copyright -->
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta datos y enlaces a estilos y fuentes -->
+    <meta charset="UTF-8"> <!-- Establece el conjunto de caracteres para el documento como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Permite que la página sea responsiva en dispositivos móviles -->
+    <title>Proyectos - Johan Salgado</title> <!-- Título de la página que aparece en la pestaña del navegador -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Enlace a la hoja de estilos externa -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> <!-- Enlace a la fuente Montserrat de Google Fonts -->
+</head>
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <!-- Sección del encabezado que contiene el título y la barra de navegación -->
+    <header>
+        <div class="container"> <!-- Contenedor principal del encabezado -->
+            <h1>Mis Proyectos</h1> <!-- Título principal de la página de proyectos -->
+            <nav>
+                <ul> <!-- Menú de navegación -->
+                    <li><a href="index.html">Inicio</a></li> <!-- Enlace a la página de inicio -->
+                    <li><a href="proyectos.html" class="active">Proyectos</a></li> <!-- Enlace a la página de proyectos, con la clase 'active' para marcar la página actual -->
+                    <li><a href="contacto.html">Contacto</a></li> <!-- Enlace a la página de contacto -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ================= PROYECTOS ================= -->
+    <!-- Sección donde se presentan los proyectos en detalle -->
+    <section class="projects-page">
+        <div class="container"> <!-- Contenedor para la sección de proyectos -->
+            <h2>Proyectos en Detalle</h2> <!-- Título de la sección -->
+            <p>Aquí puedes conocer más sobre cada uno de los proyectos que he desarrollado en electrónica, robótica y desarrollo web.</p> <!-- Descripción breve -->
+
+            <!-- Proyecto 1: Sistema de Riego Automático -->
+            <article class="project-detail"> <!-- Contenedor para el primer proyecto -->
+                <h3>Sistema de Riego Automático con Arduino</h3> <!-- Título del proyecto -->
+                <div class="project-video"> <!-- Contenedor para el video del proyecto -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/odD9rxIVZns?si=od5rBj7ov1Pea9I7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!-- Video de YouTube incrustado del sistema de riego automático -->
+                </div>
+                <p>
+                    Este proyecto utiliza un <strong>Arduino UNO</strong>, un <strong>sensor de humedad</strong> y una <strong>bomba de agua</strong> 
+                    para automatizar el riego de plantas.  
+                    El código en <strong>C++</strong> detecta el nivel de humedad del suelo y activa el riego solo cuando es necesario, 
+                    optimizando el consumo de agua.
+                </p>
+            </article>
+
+            <!-- Proyecto 2: Robot Seguidor de Línea -->
+            <article class="project-detail"> <!-- Contenedor para el segundo proyecto -->
+                <h3>Robot Seguidor de Línea</h3> <!-- Título del proyecto -->
+                <div class="project-img"><img src="imagenes/robot seguidor de lines.jpg" alt="Robot Seguidor de Línea"></div> <!-- Imagen del proyecto -->
+                <p>
+                    El robot seguidor de línea funciona con <strong>sensores infrarrojos</strong> conectados a un <strong>Arduino</strong>.  
+                    El algoritmo en C++ permite que el robot detecte y siga un camino negro sobre superficie blanca.  
+                    Es un ejemplo de cómo aplicar lógica de control y robótica básica.
+                </p>
+            </article>
+
+            <!-- Proyecto 3: Desarrollo de Página Web para PickDigitalTech -->
+            <article class="project-detail"> <!-- Contenedor para el tercer proyecto -->
+                <h3>Desarrollo de Página Web para PickDigitalTech</h3> <!-- Título del proyecto -->
+                <div class="project-img"><img src="imagenes/pickdigitaltech.png" alt="Página Web PickDigitalTech"></div> <!-- Imagen del proyecto -->
+                <p>
+                    Creación de una página web moderna y responsiva para la marca <strong>PickDigitalTech</strong>.  
+                    Incluye diseño con HTML, CSS y JavaScript, además de optimización SEO y experiencia de usuario mejorada.  
+                    Es un ejemplo de mis habilidades en <strong>desarrollo web frontend</strong>.
+                </p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <!-- Sección del pie de página -->
+    <footer>
+        <p>&copy; 2025 Johan Salgado - Portafolio de Proyectos. Todos los derechos reservados.</p> <!-- Información de copyright -->
+    </footer>
+
+</body>
+</html>
