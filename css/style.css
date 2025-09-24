@@ -235,4 +235,24 @@ footer p {
   }
 }
 
+/* -------------------------
+   ESTILO BOTÓN (Ver proyectos)
+-------------------------- */
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #005bea;  /* Color de fondo */
+  color: white;               /* Color del texto */
+  text-align: center;
+  border-radius: 6px;
+  text-decoration: none;      /* Quitar subrayado */
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0042a8;  /* Color de fondo al pasar el ratón */
+}
+
+
 
